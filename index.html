@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,15 +10,75 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <div class="navbar">
+
+            <!-- BOX1 -->
+
             <div class="nav-logo border">
                 <div class="logo"></div>
             </div>
+
+            <!-- BOX2 -->
+
+            <div class="nav-address border">
+
+                <p class="deliver nav-styling-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="location nav-styling-second">India</p>
+                </div>
+            </div>
+
+            <!-- BOX3 -->
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input class="search-input" placeholder="Search Amazon">
+                <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+
+            <!-- BOX4 -->
+
+            <div class="lang border">
+                <span class="flag"><img src="flag.png" height="21.6" width="16.2"></span>
+                <div class="select-lang">EN</div>
+            </div>
+            <button class="nav-flyout-button nav-arrow" aria-label="Expand to Change Language or Country"
+                tabindex="0" style="visibility: visible;" aria-expanded="false"></button>
+
+            <!-- Box5 -->
+
+            <div class="nav-sign-in border">
+                <p><span class="nav-styling-first">Hello, sign in</span></p>
+                <p class="nav-styling-second">Account & Lists</p>
+            </div>
+
+            <!-- Box6 -->
+
+            <div class="nav-order&return border">
+                <p><span class="nav-styling-first">Returns</span></p>
+                <p class="nav-styling-second">& Orders</p>
+            </div>
+
+
+            <!-- Box7 -->
+
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+
         </div>
+
+
 
     </header>
     <main></main>
 </body>
+
 </html>
